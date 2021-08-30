@@ -189,7 +189,7 @@ def login():
 		print logo
 		jalan(' \033[1;92mWarning: \033[1;97mDo Not Use Your Personal Account' )
 		jalan(' \033[1;92m   Note: \033[1;97mUse a New Account To Login' )
-		jalan "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBILALDOGAR\033[1;95m♡──────────•◈•──────────♡"
+		jalan(' \033[1;95m♡──────────•◈•──────────♡\033[1;96mBILALDOGAR\033[1;95m♡──────────•◈•──────────♡"
 		jalan('	   \033[1;94m♡\x1b[1;91m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
 		jalan('	' )
 		jalan ("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mlogin With Access Token ")
