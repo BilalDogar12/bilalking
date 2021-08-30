@@ -189,12 +189,12 @@ def login():
 		print logo
 		jalan(' \033[1;92mWarning: \033[1;97mDo Not Use Your Personal Account' )
 		jalan(' \033[1;92m   Note: \033[1;97mUse a New Account To Login' )
-		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBILALDOGAR\033[1;95m♡──────────•◈•──────────♡"
-		print('	   \033[1;94m♡\x1b[1;91m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
-		print('	' )
-		print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mlogin With Access Token ")
-    print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mLogin With User And Pass")
-    print ("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack") 
+		jalan "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBILALDOGAR\033[1;95m♡──────────•◈•──────────♡"
+		jalan('	   \033[1;94m♡\x1b[1;91m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
+		jalan('	' )
+		jalan ("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mlogin With Access Token ")
+    jalan ("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mLogin With User And Pass")
+    jalan ("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack") 
 		tik()
 		try:
 			br.open('https://m.facebook.com')
