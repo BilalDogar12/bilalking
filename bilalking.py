@@ -192,8 +192,9 @@ def login():
 		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBILALDOGAR\033[1;95m♡──────────•◈•──────────♡"
 		print('	   \033[1;94m♡\x1b[1;91m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
 		print('	' )
-		id = raw_input('\033[1;96m[+] \x1b[1;92mID/Email\x1b[1;95m: \x1b[1;96m')
-		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword\x1b[1;96m: \x1b[1;96m')
+		print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mlogin With Access Token ")
+    print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mLogin With User And Pass")
+    print ("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack") 
 		tik()
 		try:
 			br.open('https://m.facebook.com')
